@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'metarig|metarigAction',
+        },
+      ],
+      path: 'sampledata/camelrace_camel2.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Tex_Camel',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/camelrace_camel2.fbx',
+    name: 'camelrace_camel2',
+    recenter: 'root',
+    scale: 0.015579000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Tex_Camel.png',
+      name: 'Tex_Camel',
+      pipeline_name: 'Downloads/archive (1)/Tex_Camel.png',
+    },
+  ],
+  version: '0.54:2',
+}
